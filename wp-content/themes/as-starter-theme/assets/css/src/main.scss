@@ -1,0 +1,34 @@
+////
+/// Import all files
+/// Order do matter
+///
+////
+
+/// Settings
+@import 'settings/colors';
+@import 'settings/fonts';
+@import 'settings/bootstrap';
+
+// Generic
+@import 'generic/normalize';
+@import 'generic/reset';
+
+// Tools (helper, mixins and function)
+// @import 'tools/'
+
+
+// Base
+@import 'elements/body';
+@import 'elements/blocks';
+@import 'elements/headings';
+@import 'elements/forms';
+@import 'elements/links';
+
+// Objects
+@import 'objects/forms';
+@import 'objects/highlights';
+
+// Components
+// @import 'components/'
+// Trumps
+@import 'trumps/print';

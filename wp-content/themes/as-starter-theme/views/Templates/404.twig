@@ -1,0 +1,35 @@
+{# 404.php #}
+{% extends 'Layouts/base.twig' %}
+
+{% block content %}
+<section id="section8">
+
+  <img src="{{theme.path}}/assets/img/group-16.jpg">
+    <h1>Oups, cette page n’existe pas !</h1>
+    <a href="{{theme.path}}/sources/" rel="home">Découvrez nos offres</a>
+
+
+</section>
+<section id="section7">
+    <h1>Le Blog</h1>
+<div class="flex">
+    <div>
+    <img src="{{theme.path}}/assets/img/ordi.jpg" class="imageradius">
+        <h3>La veille collaborative : l’avenir de la veille en entreprise ?</h3>
+    <p>12 FEV 2019</p>
+    </div>
+    <div>
+    <img src="{{theme.path}}/assets/img/ordi.jpg" class="imageradius">
+        <h3>La veille collaborative : l’avenir de la veille en entreprise ?</h3>
+    <p>12 FEV 2019</p>
+    </div>
+    <div>
+    <img src="{{theme.path}}/assets/img/datascience.png" class="imageradius">
+        <h3>La veille collaborative : l’avenir de la veille en entreprise ?</h3>
+    <p>12 FEV 2019</p>
+    </div>
+    
+    </div>
+    <a href="{{theme.path}}/sources/" rel="home">Plus d'articles</a>
+</section>
+{% endblock %}

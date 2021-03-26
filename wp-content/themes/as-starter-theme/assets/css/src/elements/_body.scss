@@ -1,0 +1,1141 @@
+////
+/// Layout of the page
+///
+/// @group Elements
+///
+////
+
+/// Text default font and color
+body {
+  background-color: $white;
+  background-size: 10rem;
+  font-family: $font; 
+  font-weight: $fw-regular;
+  color: $color-text;
+  overflow-x: hidden;
+    
+  
+}
+header{
+    margin-top: 31px;
+    margin-right: 118px;
+    display: flex;
+    text-align: center;
+    height: 54px;
+    
+}
+header a{
+    color: $color-text;
+    text-decoration: none;
+    margin-top: 15px;
+}
+header a:hover{
+    color: $color-text;
+    text-decoration: none;
+}
+header a, select{
+    margin-left: 33px;
+    font-size: 16px;
+}
+
+header img{
+    width: 188px;
+  height: 47px;
+}
+
+.boutonbleu{
+  width: 195px;
+  height: 43px;
+  margin: 0 0 0 34px;
+  padding: 11px 5px 13px 6px;
+  border-radius: 24px;
+  background-color: #56d2cc;
+  color: $white;
+}
+.boutonbleu:hover{
+    color: $white;
+}
+header{margin-left: 122px;}
+#section1{
+    margin-left: 50px;
+}
+#section1 h1{
+     width: 630px;
+  height: 126px;
+ 
+  font-family: $font;
+  font-size: 52px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #323648;
+}
+
+#section1 p{
+    width: 616px;
+  height: 80px;
+  
+  font-family: $font;
+  font-size: 34px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: $grey;
+}
+
+#section1 #mail{
+    width: 250px;
+  height: 57px;
+  margin: 0 18px 0 0;
+  padding: 18px 94px 17px 29px;
+  border-radius: 7px;
+  border: solid 1px #dddddd;
+  background-color: $white;
+}
+
+#buttonorange{
+     width: 249px;
+  height: 57px;
+  margin: 0 0 0 18px;
+  padding: 18px 32px 18px 33px;
+  border-radius: 28.5px;
+  background-color: var(--orange);
+    color: white;
+    border: none;
+}
+.section2{
+    margin-left: -200px;
+    width: 128%;
+}
+#section2{
+    background: url("../../../../assets/img/bg-arrondi-bleu.svg");
+}
+#section2 #cote{
+    margin-left: 150px;
+}
+#section2 div{
+    width: 50%;
+}
+#section2 h1{
+    width: 50px;
+  height: 174px;
+  margin: 384px 743px 16px 80px;
+  opacity: 0.5;
+  font-family: $font;
+  font-size: 80px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.09;
+  letter-spacing: normal;
+  color: $blue;
+}
+#fleche{
+    width: 40px;
+  height: 40px;
+  margin: 0px 0px -200px 551px;
+
+}
+#traitbleu{
+    width: 2px;
+  height: 21px;
+  margin: 16px 1093px 461px 80px;
+  opacity: 0.5;
+  background-color: $blue;
+}
+
+#section2 h2{
+    width: 443px;
+  height: 60px;
+ margin: 384px 133px 25px 14px;
+  font-family: $font;
+  font-size: 25px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #323648;
+}
+
+#section2 p{
+    width: 499px;
+  height: 54px;
+  
+  font-family: $font;
+  font-size: 19px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.42;
+  letter-spacing: normal;
+  color: $grey;
+}
+
+#section3{
+    margin-top: -250px;
+    margin-left: 50px;
+}
+#section3 div {
+    width: 50%;
+}
+#section3 h1{
+    width: 91px;
+  height: 39px;
+  font-family: $font;
+  font-size: 25px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.56;
+  letter-spacing: normal;
+  color: #ff605b;
+}
+#section3 h2{
+    width: 436px;
+  height: 78px;
+  margin: 0px 882px 18px 3px;
+  font-family: $font;
+  font-size: 35px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.11;
+  letter-spacing: normal;
+  color: #323648;
+}
+
+#section3 p{
+    width: 370px;
+  height: 54px;
+  margin: 50px 948px 35px 3px;
+  font-family: $font;
+  font-size: 19px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.42;
+  letter-spacing: normal;
+  color: $grey;
+}
+
+#section4{
+    margin-top: 100px;
+    margin-left: -200px;
+     background: url("../../../../assets/img/haricot-jaune.svg") no-repeat;
+    background-position: left;
+    background-size: 40%;
+}
+
+
+#pilot{
+    margin-left: 200px;
+}
+
+#section4 h1{
+    width: 52px;
+  height: 39px;
+  margin: 0px 525px 7px 60px;
+  font-family: $font;
+  font-size: 25px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.56;
+  letter-spacing: normal;
+  color: #0ec6b2;
+}
+
+#section4 h2{
+     width: 459px;
+  height: 78px;
+  margin: 7px 118px 16px 60px;
+  font-family: $font;
+  font-size: 35px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.11;
+  letter-spacing: normal;
+  color: $black;
+}
+
+#section4 p{
+     width: 370px;
+  height: 54px;
+  margin: 16px 207px 23px 60px;
+  font-family: $font;
+  font-size: 19px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.42;
+  letter-spacing: normal;
+  color: $grey;
+}
+#section4 a{
+     width: 213px;
+  height: 57px;
+  margin: 23px 371px 92px 53px;
+  padding: 17px 28px 19px;
+  border-radius: 28.5px;
+  background-color: $blue;
+  font-family: $font;
+  font-size: 18px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: $white;
+    border: none;
+    text-decoration: none;
+}
+
+
+#platform{
+    margin-right: 200px;
+}
+#section5{
+    margin-top: 100px;
+    margin-right: -200px;
+    background: url("../../../../assets/img/haricot-violet.svg") no-repeat;
+    background-position: right;
+    background-size: 40%;
+}
+#section5 div{
+    width: 50%;   
+}
+
+#section5 h1{
+    width: 100px;
+  height: 39px;
+  margin: 0px 2px 3px 0px;
+  font-family: $font;
+  font-size: 25px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.56;
+  letter-spacing: normal;
+  color: #007993;
+}
+
+#section5 h2{
+    width: 502px;
+  height: 78px;
+  margin: 3px 29px 20px 0px;
+  font-family: $font;
+  font-size: 35px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.11;
+  letter-spacing: normal;
+  color: $black;
+}
+
+#section5 p{
+    width: 330px;
+  height: 54px;
+  margin: 50px 3px 27px 0px;
+  font-family: $font;
+  font-size: 19px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.42;
+  letter-spacing: normal;
+  color: $grey;
+}
+
+#section5 a{
+ width: 245px;
+  height: 57px;
+  margin: 27px 88px 344px 0px;
+  padding: 17px 32px 19px;
+  border-radius: 28.5px;
+  background-color: $blue;
+    font-family: $font;
+  font-size: 18px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: $white;
+    border: none;
+    text-decoration: none;
+}
+
+#section6{
+    background: url(../../../img/arc-cercle-solutions.svg);
+    background-size: cover;
+margin-left: -150px;
+    margin-right: -200px;
+    height: 1150px;
+}
+
+
+#section6 h1{
+    margin-left: 200px;
+  text-align: center;
+  font-family: $font;
+  font-size: 35px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.11;
+  letter-spacing: normal;
+  color: $black;
+}
+
+.titretext{
+    width: 249px;
+  height: 26px;
+  margin: 9px 20px 15px 0;
+  font-family: $font;
+  font-size: 22px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: $black;
+}
+
+.texte{
+    width: 269px;
+  height: 81px;
+  margin: 15px 0 0;
+  font-family:$font;
+  font-size: 19px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.42;
+  letter-spacing: normal;
+  color: $grey;
+}
+
+.image{
+     width: 52px;
+  height: 66px;
+  margin: 0 217px 9px 0;
+  object-fit: contain;
+}
+
+.list{
+    width: 269px;
+  height: 252px;
+  margin: 0 91px 20px 50px;
+  padding: 26px 0 29px;
+}
+
+.center{
+    margin-left: 150px;
+}
+#cote h1{
+    width: 575px;
+  height: 174px;
+  opacity: 0.52;
+  font-family: $font;
+  font-size: 80px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.09;
+  letter-spacing: normal;
+  color: $blue;
+    text-align: left;
+
+}
+
+#traitbleu1{
+     width: 150px;
+  height: 21px;
+  margin: 16px 1093px 461px 200px;
+  opacity: 0.5;
+  background-color: $blue;
+}
+
+.partie2{
+    margin-top:100px;
+    overflow-x: hidden;
+}
+
+
+#section7{
+    padding-top: 20px;
+    background-color: #f9f6f7;
+    margin-left: -200px;
+    margin-right:-200px;
+    padding-bottom: 20px;
+}
+#parfaites{
+    padding-top: 50px;
+}
+#section7 h1{
+     text-align: center;
+  font-family: $font;
+  font-size: 35px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.11;
+  letter-spacing: normal;
+  color: $black;
+}
+#section7 .flex{
+    margin-left: 200px;
+}
+#section7 h3{
+    width: 373px;
+  height: 79px;
+  font-family: $font;
+  font-size: 22px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.23;
+  letter-spacing: normal;
+  color: $black;
+   
+}
+#section7 p{
+    width: 291px;
+  height: 30px;
+  font-family: $font;
+  font-size: 14px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.64;
+  letter-spacing: normal;
+  color: rgba(91, 94, 109, 0.5);
+
+}
+#section7 a{
+    width: 249px;
+    height: 57px;
+    padding: 17px 32px 19px 33px;
+    border-radius: 28.5px;
+    background-color: $blue;
+    border: none;
+    margin-left: 45%;
+    font-family: $font;
+  font-size: 18px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: $white;
+    text-decoration: none;
+}
+
+#section7 .flex div .imageradius{
+    width: 373px;
+  height: 248px;
+  margin: 0 0 16px;
+  border-radius: 10px;
+  background-color: $grey;
+}
+
+#section7 .flex div {
+    margin-left: 20px;
+}
+
+#section8{
+   text-align: center;
+}
+#section8 img{
+    width: 587px;
+  height: 182px;
+    object-fit: contain;
+}
+
+#section8 h1{
+  font-family: $font;
+  font-size: 34px;
+  font-weight: 300;
+  line-height: 1.18;
+  color: $grey;
+}
+
+#section8 a{
+    width: 249px;
+  height: 57px;
+  padding: 18px 32px 18px 33px;
+  border-radius: 28.5px;
+  background-color: $orange;
+    border: none;
+    font-family: $font;
+  font-size: 18px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: $white;
+    text-decoration: none;
+}
+#section9{
+    margin-left: -200px;
+    margin-right: -200px;
+    height: 390px;
+   background-color: #fef6ed; 
+    overflow: hidden;
+}
+#section9 div{
+    width: 50%;
+    
+}
+#section9 img{
+    width: 90%;
+    margin-top: 70px;
+    float: right;
+}
+#section9 h2{
+    margin-left: 200px;
+  font-family: $font;
+  font-size: 35px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.11;
+  letter-spacing: normal;
+  color: $black;
+}
+#section9 h1{
+    margin-left: 200px;
+    margin-top: 90px;
+  font-family: $font;
+  font-size: 50px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: $black;
+}
+#section9 p{
+       width: 500px;
+    margin-left: 200px;
+   margin-top: 110px;
+  font-family: $font;
+  font-size: 13px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: $grey;
+}
+#section10 div{
+    width: 50%;
+}
+#section10 h1{
+  font-family: $font;
+  font-size: 35px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.11;
+  letter-spacing: normal;
+  color: $font;
+}
+
+#section10 h2{
+  font-family: $font;
+  font-size: 19px;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.63;
+  letter-spacing: normal;
+  font-weight: bold;
+  color: $blue;
+}
+
+#section10 p{
+  font-family: $font;
+  font-size: 19px;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.63;
+  letter-spacing: normal;
+  font-weight: 300;
+  color: $grey;
+}
+#section10 img{
+    margin-top: 25%;
+}
+
+#section11 div{
+    width: 50%;
+}
+#section11 h1{
+  font-family: $font;
+  font-size: 35px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.11;
+  letter-spacing: normal;
+  color: $font;
+}
+
+#section11 h2{
+  font-family: $font;
+  font-size: 19px;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.63;
+  letter-spacing: normal;
+  font-weight: bold;
+  color: $blue;
+}
+
+#section11 p{
+  font-family: $font;
+  font-size: 19px;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.63;
+  letter-spacing: normal;
+  font-weight: 300;
+  color: $grey;
+}
+#section11 img{
+    margin-top: 25%;
+}
+#section11 a{
+  width: 343px;
+  height: 57px;
+  padding: 17px 45px 19px 32px;
+  border-radius: 28.5px;
+  background-color: $blue;
+  font-family: $font;
+  font-size: 18px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: $white;
+  border: none;
+  text-decoration: none;
+}
+
+#coter h1{
+  width: 575px;
+  height: 174px;
+  opacity: 0.52;
+  font-family: $font;
+  font-size: 80px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.09;
+  letter-spacing: normal;
+  color: #bc939b;
+  text-align: left;
+  margin-left: 200px;
+}
+
+#traitrose1{
+  width: 150px;
+  height: 21px;
+  opacity: 0.5;
+  background-color: #bc939b;
+    margin-left: 200px;
+}
+
+.partie3{
+    margin-top:100px;
+    background-color: #f9f6f7;
+    width: 1640px;
+    margin-left: -200px;
+    height: 350px;
+}
+
+#section12{
+    background-color: #fdf8f2;
+    margin-left: -200px;
+    margin-right: -200px;
+}
+#section12 div{
+    width: 50%;
+}
+#section12 img{
+    margin-left: 200px;
+}
+#section12 h1{
+   font-family: $font;
+  font-size: 35px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.11;
+  letter-spacing: normal;
+  color: $black;   
+    margin-right: 100px;
+    margin-left: 100px;
+    
+}
+#section12 p{
+  font-family: $font;
+  font-size: 19px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.42;
+  letter-spacing: normal;
+  color: $grey;  
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+#section12 a{
+    width: 285px;
+  height: 57px;
+  padding: 17px 36px 19px 33px;
+  border-radius: 28.5px;
+  background-color: $blue;
+  font-family: $font;
+  font-size: 18px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: $white;
+    border: none;
+    margin-right: 100px;
+    margin-left: 100px;
+    text-decoration: none;
+}
+#section13 h2{
+    width: 191px;
+  height: 27px;
+  font-family: $font;
+  font-size: 16px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.69;
+  letter-spacing: normal;
+  color: $black;
+}
+#section13 p{
+    width: 148px;
+  font-family: $font;
+  font-size: 15px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  color: $font;
+}
+#section13 img{
+    width: 60%;
+}
+.titre p{
+  font-family: $font;
+  font-size: 13px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: rgba(91, 94, 109, 0.5);
+}
+.titre{
+    text-align: center;
+}
+.titre h1{
+  margin-left: 15%;
+    width: 828px;
+  height: 120px;
+  font-family: $font;
+  font-size: 50px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: $black;
+}
+#carrebleu{
+    width: 189px;
+  height: 146px;
+  margin: 17px 8px 11px 0;
+  opacity: 0.2;
+  border-radius: 8px;
+  background-color: $blue;
+    color: $blue;
+}
+.borderb{
+    border-bottom: 1px solid black;
+    width: 191px;
+    margin-top: 20px;
+
+}
+#telecharger p{
+     width: 178px;
+}
+#telecharger a {
+     font-weight: bold;
+  color: $blue;
+}
+#gauche h3{
+    width: 700px;
+  height: 26px;
+  font-family: $font;
+  font-size: 22px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: $black;
+}
+#gauche p{
+    width: 700px;
+  font-family: $font;
+  font-size: 19px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  color: $grey;
+}
+
+#flower{
+    margin-bottom: 20px;
+    width: 700px;
+  height: 263px;
+  padding: 40px 0 0 72px;
+  border-radius: 15px;
+  box-shadow: 0 7px 19px 0 #f0f0f0;
+  border: solid 1px #f7f2f4;
+  background-color: #f9f6f7;
+}
+#flower h1{
+    width: 348px;
+  height: 93px;
+  margin: 0 212px 24px 0;
+  font-family: $font;
+  font-size: 26px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: $black;
+}
+#flower a{
+    color: $blue;
+    text-decoration: none;
+}
+#flower #bleu{
+      width: 162px;
+  height: 57px;
+  padding: 17px 38px 19px 42px;
+  border-radius: 28.5px;
+  background-color: $blue;
+  font-family: $font;
+  font-size: 18px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: $white;
+    border: none;
+    text-decoration: none;
+}
+#flower img{
+    height: 192px;
+    width: 473px;
+    margin-top: 30px;
+    margin-left: 150px;
+}
+.flex{
+    display: flex;
+}
+
+.footer1{
+   border-bottom: 1px solid rgba(91, 94, 109, 0.5); 
+    width: 1201px;
+        margin-left: 60px;
+}
+.footer1 div{
+    margin-right: 70px;
+}
+.footer1 img{
+    height: 39px;
+}
+
+footer p{
+    line-height:0.5;
+    color:rgba(91, 94, 109, 0.5);
+}
+footer [type=text] {
+    border: none;
+    border-bottom: 1px solid rgba(91, 94, 109, 0.5);
+    color: rgba(91, 94, 109, 0.5);
+}
+
+.footer2 p{
+    margin-right: 20px;
+}
+.right{
+    position:absolute;
+    right:200px;
+    padding-top: 10px;
+
+}
+.footer2 img{
+     margin-left: 33px;
+     height: 16px;
+    
+}
+footer{margin-left: 172px;}
+
+.footer2{margin-left: 90px;}
+
+#section14{
+    padding-top: 20px;
+    background-color: $white;
+    margin-left: -200px;
+    margin-right:-200px;
+    padding-bottom: 20px;
+}
+#section14 h1{
+     text-align: center;
+  font-family: $font;
+  font-size: 35px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.11;
+  letter-spacing: normal;
+  color: $black;
+}
+#section14 .flex{
+    margin-left: 200px;
+}
+#section14 h3{
+    width: 373px;
+  height: 79px;
+  font-family: $font;
+  font-size: 22px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.23;
+  letter-spacing: normal;
+  color: $black;
+   
+}
+#section14 p{
+    width: 291px;
+  height: 30px;
+  font-family: $font;
+  font-size: 14px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.64;
+  letter-spacing: normal;
+  color: rgba(91, 94, 109, 0.5);
+
+}
+#section14 a{
+    width: 249px;
+    height: 57px;
+    padding: 17px 32px 19px 33px;
+    border-radius: 28.5px;
+    background-color: $blue;
+    border: none;
+    margin-left: 45%;
+    font-family: $font;
+  font-size: 18px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: $white;
+    text-decoration: none;
+}
+
+#section14 .flex div .imageradius{
+    width: 373px;
+  height: 248px;
+  margin: 0 0 16px;
+  border-radius: 10px;
+  background-color: $grey;
+}
+
+#section14 .flex div {
+    margin-left: 20px;
+}
+
+.partie2 #cote{
+    width: 50%;
+}
+
+.bulle{
+  width: 538px;
+  height: 268px;
+  padding: 40px 11px 73px 35px;
+  border-radius: 7px;
+  box-shadow: 0 0 38px 0 rgba(60, 144, 140, 0.12);
+  background-color: $white;
+    display: flex;
+    margin-right: 20px;
+}
+.bulle::after{
+    content:""; 
+border-left:20px solid transparent;
+border-right:20px solid transparent;
+border-top: 20px solid $white;
+position: absolute;
+        margin-top: 228px;
+    margin-left: 400px;
+}
+.rond{
+    border-radius: 100px;
+    height: 10px;
+    width: 10px;
+    margin-right: 15px;
+}
+
+.rond-noir{
+    background-color: $black;
+}
+.rond-cyan{
+    background-color: #56d2cc;
+}
+.rond-rose{
+    background-color: #d9c2c7;;
+}
+.ronds{
+    margin-left: 295px;
+    margin-top: 40px;
+}
